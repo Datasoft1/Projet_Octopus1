@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app	
+	xmlns="http://java.sun.com/xml/nx/javaee"	  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+    version="4.0">
+ 
+      <servlet>
+      	<servlet-name>PremierServ</servlet-name>
+      	<servlet-class>com.test.PremierServ</servlet-class>
+      </servlet>
+  
+      <servlet-mapping>
+      	<servlet-name>PremierServ</servlet-name>
+      	<url-pattern> /index</url-pattern>
+      </servlet-mapping>
+      
+      
+      
+      <servlet>
+      	<servlet-name>DataCollect</servlet-name>
+      	<servlet-class>com.test.DataCollect</servlet-class>
+      </servlet>
+          
+      <servlet-mapping>
+      	<servlet-name>DataCollect</servlet-name>
+      	<url-pattern> /collect</url-pattern>
+      </servlet-mapping>
+      
+      
+      <servlet>
+      	<servlet-name>Formulaire1</servlet-name>
+      	<servlet-class>com.test.Formulaire1</servlet-class>
+      </servlet>
+          
+      <servlet-mapping>
+      	<servlet-name>Formulaire1</servlet-name>
+      	<url-pattern> /formulaire</url-pattern>
+      </servlet-mapping>
+      
+      
+      <servlet>
+      	<servlet-name>Bdd</servlet-name>
+      	<servlet-class>com.test.Bdd</servlet-class>
+      </servlet>
+          
+      <servlet-mapping>
+      	<servlet-name>Bdd</servlet-name>
+      	<url-pattern> /bdd</url-pattern>
+      </servlet-mapping>
+      
+      <servlet>
+      	<servlet-name>Prqnous</servlet-name>
+      	<servlet-class>com.test.Prqnous</servlet-class>
+      </servlet>
+          
+      <servlet-mapping>
+      	<servlet-name>Prqnous</servlet-name>
+      	<url-pattern> /prqnous</url-pattern>
+      </servlet-mapping>
+      	
+</web-app>
