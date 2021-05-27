@@ -1,0 +1,1 @@
+Dans ce dosiier se trouve les logiciels utiliser afin de dévlopper et déployer le projet 
