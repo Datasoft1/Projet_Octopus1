@@ -1,1 +1,0 @@
-Dans ce dosiier se trouve les fichiers binaires qui vont pertmetre le déploiment du projet sur Jenkins  afin de dévlopper et déployer le projet 
